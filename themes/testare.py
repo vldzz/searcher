@@ -10,7 +10,7 @@ testare = {
     "80": "testarea este aplicata pe intreg app life cycle",
     "90": "tranzactia de la testare la quality assurance. Include: planificare, proiectare, creare si executare a "
           "scenariilor de testare",
-    "2000": "Apar metodologii complexe.",
+    "2000": "Apar metodologii complexe",
 
     # principii si axiome
     "principii": [
@@ -44,7 +44,6 @@ testare = {
         "creste si accelereaza dezvoltarea",
         "contribuie la reducerea riscurilor si a costului de gestionare a proiectului"
     ],
-
 
     # metodologii de dezvoltare
     "cascada": [
@@ -91,5 +90,110 @@ testare = {
         "dupa fiecare iteratie, clientul poate observa rezultatul",
         "se bazeaza pe intruniri zilnice repetate regulate",
         "proiecte mari, sau ciclu de viata lung"
-    ]
+    ],
+
+    "cerinta": "descriere bine definita a unui set de caracteristici utile pentru user pe care aceasta se asteapta "
+               "sa le aiba produsul ",
+    "cerinte": [
+        "exhaustivitate", "atomicitate", "consistenta", "claritate", "necesitate", "fezabilitate"
+    ],
+    "exhaustivitate": "cerinta e completa si exhaustiva atunci cand sunt prezentate toate informatiile necesare",
+    "atomicitate": "o cerinta este atomica daca nu poate fi impartita in cerinte separate fara a pierde din "
+                   "exhaustivitate si descrie o situatie",
+    "consistenta": "cerinta nu va contine contradictii interne si contradictii cu alte cerinte si documente",
+    "claritate": "cerinta este descrisa clar",
+    "fezabilitate": "cerinta este fezabila din punctul de vedere tehnologic si poate fi realizata cu bugetul si in "
+                    "termenul propus ",
+    "necesitate": "daca cerinta nu este obligatorie, aceasta ar trebui exclusa din setul de cerinte",
+
+    # bugs
+    "bug": "functionale, vizuale, logice, continut, uzabilitate",
+    "functionale": [
+        "nu pot fi salvate modificari de date ale utilizatorilor",
+        "articolul nu poate fi sters din cos",
+        "nu poate fi adaugat un comentariu",
+        "nu functioneaza sistemul de cautare",
+        "nu functioneaza sistemul de sortare"
+    ],
+    "vizuale": [
+        "nu se afiseaza imaginea",
+        "textul este decupat",
+        "font nepotrivit",
+        "imaginea suprapune textul"
+    ],
+    "logice": [
+        "poate fi setata data de nastere ca o data viitoare",
+        "o logica de cautare invalida pentru un anumit item pe pagina web, in magazin",
+        "puteti comanda o livrare prin curier, fara a specifica adresa de livrare"
+    ],
+    "continut": [
+        "greseli de ortografie si punctuatie",
+        "imaginea produsului nu se potriveste cu descrierea acestuia",
+        "pe pagina web sunt plasate texte in mai multe limbi"
+    ],
+
+    "bug report": [
+        "furnizarea informatiei despre o problema",
+        "prioritizarea problemei",
+        "contributie la eliminarea problemei",
+
+        "contine: identificator, o scurta denumire(summary)(ce, unde si cum), descriere detaliata, preconditions, "
+        "steps to reproduce, actual result, severity, priority, mediul, comentarii, atasamente, statu(new, asigned, "
+        "open, etc.)"
+    ],
+    "test case": [
+        "descriere pas cu pas a testarii, cu nivel de detaliere ce permite oricarui noob sa-l poata realiza",
+        "contine: identificator, name, preconditions, pasi, expected result"
+    ],
+    "test plan": "constituie un document ce descrie totalitatea activitatilor de testare",
+
+    # Box testing
+    "black": "Nu avem acces la cod",
+    "white": "Avem acces la cod",
+    "gray": "Mix din black and white",
+
+    # Testare unitară, de integrare, de sistem, de acceptare
+    "tipuri": [
+        "unitara - elemente mici ale aplicatiei",
+        "de integrare - intereactiunea intre mai multe elemente",
+        "de sistem - aplicatia in ansamblu",
+        "de acceptare - in ce masura produsul este gata de a fi livrat. se face de client, sau testerii clientului",
+
+        "regresie - verificarea functionalitatii existente dupa efectuarea corectiilor in sistem",
+        "retestarea - pentru a confirma corectarea erorilor si functionarea sistemului (dupa remedierea unui bug",
+
+        "alpha - verificarea unui sistem la inceput. efectuat de testeri calificati",
+        "beta - o versiune complexa a sistemului. evaluarea din punct de vedere a viitorilor clienti",
+        "gamma - etapa finala de testare inainte de lansarea finala. Include la maxim clientii",
+
+        "positive - examinarea aplicatiei fara folosirea datelor incorecte",
+        "negative - examinarea aplicatiei folosind date incorecte",
+
+        "functional - verifica daca sistemul corespune cu cerintele clientului",
+        "nefunctional - uzabilitate, performanta, incarcare, securitatea, instalare, compabilitate, localizare, "
+        "accesibilitate, stres"
+    ],
+
+    "regresie": "verificarea functionalitatii existente dupa efectuarea corectiilor in sistem",
+    "retestarea": "pentru a confirma corectarea erorilor si functionarea sistemului (dupa remedierea unui bug",
+
+    "alpha": "verificarea unui sistem la inceput. efectuat de testeri calificati",
+    "beta": "o versiune complexa a sistemului. evaluarea din punct de vedere a viitorilor clienti",
+    "gamma": "etapa finala de testare inainte de lansarea finala. Include la maxim clientii",
+
+    "functional": "verifica daca sistemul corespune cu cerintele clientului",
+    "nefunctional": "uzabilitate, performanta, incarcare, securitatea, instalare, compabilitate, localizare, "
+                    "accesibilitate, stres",
+
+    "performanta": "verificarea vitezei software-ului sau a functiilor acestuia",
+    "incarcare": "testarea timpului de raspuns la diferite requesturi",
+    "instalare": "verificarea procesului de instalare, configurare, dezinstalare",
+    "uzabilitate": "comoditatea de utilizare a aplicatiei de catre utilizatori finali",
+    "compabilitate": "veificarea soft-ului in diferite configuratii de sistem",
+    "securitatea": "este protejata sau nu aplicatia",
+    "localizare": "controlul corectitudinii si calitatii adaptarii produsului la utilizarea intr-o anumita limba",
+    "accesibilitate": "analiza adecvarii unui produs pentru persaone cu dizabilitati",
+    "stres": "testarea in conditii critice, de stres"
+
+
 }

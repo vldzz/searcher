@@ -107,5 +107,6 @@ def stop():
 
 try:
     start()
-except:
+except Exception as e:
     notification.notify("Error", "Critical error")
+
